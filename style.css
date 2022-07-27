@@ -1,0 +1,427 @@
+body {
+    width: 100%;
+    background-color: grey;
+}
+.container {
+    background-color: #fff;
+}
+.top-header-right h1 {
+    font-size: 4rem;
+    border-top: 3px solid #000;
+    position: static;
+    width: fit-content;
+    display: block;
+    margin: auto;
+}
+.top-header-right h3 {
+    font-size: 1.6rem;
+}
+.top-right img {
+    width: 100%;
+    height: 100%;
+}
+.container-fluid {
+    background-color: #791313;
+}
+.navbar-light .navbar-toggler {
+    background: grey;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#navbarNav {
+    justify-content: end;
+}
+ul li a.active {
+    background-color: grey;
+}
+ul li a:hover {
+    background-color: grey;
+}
+.form-para {
+    font-size: 1.3rem;
+}
+.form-para span {
+    font-weight: bold;
+    color: #000;
+}
+.form {
+    background-image: url(./img/form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#right-banner img {
+    width: 100%;
+    height: 100%;
+}
+input {
+    width: 80%;
+}
+#question {
+    display: inline-block;
+    background-color: #791313;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+span {
+    color: #791313;
+}
+#confidential-icon {
+    transform: rotate(13deg);
+    width: 100%;
+    float: left;
+}
+.container button {
+    color: #fff;
+    background: #b82323;
+    border: none;
+}
+.container button i.fa {
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+/*   Styling for middle  section   */
+.middle-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.middle-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.middle-section img {
+    width: 100%;
+}
+.middle-center {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+#resize {
+    width: 125%;
+}
+
+.hr-shadow img {
+    width: inherit;
+}
+.last-section h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.bottom-left {
+    margin-top: 5px;
+    margin-bottom: 4rem;
+}
+.bottom-left div {
+    background-color: grey;
+    color: #fff;
+    border-left: 1rem solid #791313;
+    padding: 10px 10px;
+    height: 5rem;
+    width: 25rem;
+}
+.bottom-left div h1 {
+    font-size: 1.3rem;
+}
+.bottom-left button {
+    border: none;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-top: 5px;
+}
+.bottom-left button i.fa {
+    color: #791313;
+}
+.grey {
+    color: grey;
+    opacity: 60%;
+}
+.bottom-right h1 {
+    font-size: 1.8rem;
+}
+.bottom-right h4 {
+    font-size: 1.2rem;
+}
+#bottom-hr {
+    margin: 0;
+    height: 30px;
+}
+
+/*    Large devices (desktops, 992px and upto 1199px)     */
+
+@media all and (min-width: 992px) {
+    .top-header-right h1 {
+        font-size: 3rem;
+    }
+    .top-header-right h2 {
+        font-size: 1.6rem;
+    }
+    .top-header-right h3 {
+        font-size: 1.2rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 1rem 1.5rem;
+    }
+    #question {
+        padding: 10px 10px;
+        font-size: 1.7rem;
+    }
+    .form h2 {
+        font-size: 1.5rem;
+    }
+    .form-para {
+        font-size: 1.2rem;
+    }
+    .form-btn {
+        font-size: 0.8rem;
+    }
+    .middle-section h1 {
+        font-size: 1.5rem;
+    }
+    .last-section h1 {
+        font-size: 1.4rem;
+    }
+    .bottom-left div h1 {
+        font-size: 1.1rem;
+    }
+    .bottom-right h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/*       Medium devices (tablets, 768px and upto 991px)        */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 95%;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .top-header-right h1 {
+        font-size: 2.5rem;
+    }
+    .top-header-right h2 {
+        font-size: 1.3rem;
+    }
+    .top-header-right h3 {
+        font-size: 1rem;
+    }
+    #question {
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+    .form h2 {
+        font-size: 1.1rem;
+    }
+    .form-para {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .form-btn {
+        font-size: 0.6rem;
+    }
+    input {
+        width: 100%;
+    }
+    .container button i.fa {
+        font-size: 1.3rem;
+    }
+    .middle-section h1 {
+        font-size: 1.3rem;
+    }  
+    .bottom-right {
+        justify-content: center;
+        padding: 3rem 5rem 1rem 5rem;
+        border-top: 1px solid #000;
+    } 
+}
+
+/*      Small devices (landscape phones, and upto 767px)      */
+
+@media all and (max-width: 767px) {
+    .container {
+        max-width: 96%;
+    }
+    .top-header-right h2 {
+        font-size: 2rem;
+    }
+    .form {
+        width: 96%;
+        margin: auto;
+    }
+    input {
+        width: 90%;
+    }
+    .middle-section img {
+        width: 80%;
+    }
+    #resize {
+        width: 100%;
+    }
+    .bottom-left div {
+        width: 100%;
+    }
+    .text-center h1 {
+        font-size: 3.7rem;
+    }
+    .social-icons img {
+        width: 2.7rem;
+    }
+}
+
+/*     X-Small devices (portrait phones, less than 576px)     */
+
+@media all and (max-width: 575.98px) {
+    .top-header-right h2 {
+        font-size: 1.8rem;
+    }
+    .top-header-right h3 {
+        font-size: 1.3rem;
+    }
+    .top-header-right h1 {
+        font-size: 3.3rem;
+    }
+    .navbar-light .navbar-toggler {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #question {
+        padding: 7px 7px;
+        font-size: 1.5rem;
+    }
+    .form h2 {
+        font-size: 1.2rem;
+    }
+    .form-btn {
+        font-size: 0.7rem;
+    }
+    .middle-section img {
+        width: 100%;
+    }
+    .middle-center img {
+        height: 80%;
+    }
+    .middle-section button {
+        margin-left: 4rem;
+    }
+    .middle-center h1 {
+        font-size: 1.8rem;
+    }
+    #resize {
+        width: 125%;
+    }
+    #bottom-left {
+        margin-bottom: 1rem;
+    }
+    #bottom-left h1 {
+        font-size: 2rem;
+    }
+    .bottom-last-text h1 {
+        font-size: 1.5rem;
+    }
+    #bottom-hr {
+        height: 15px;
+    }
+    .social-icons img {
+        width: 1.8rem;
+    }
+}
+/*     X-Small devices (portrait phones, Smart Watches less than 420px)     */
+@media all and (max-width: 420px) {
+    .top-header-right h1 {
+        font-size: 2.1rem;
+    }
+    .top-header-right h2 {
+        font-size: 1.1rem;
+    }
+    .top-header-right h3 {
+        font-size: 0.8rem;
+    }
+    .container-fluid {
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+    #question {
+        padding: 2px;
+        font-size: 1rem;
+    }
+    .form h2 {
+        font-size: 0.8rem;
+    }
+    .form-para {
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+    label {
+        font-size: 12px;
+    }
+    .form-btn {
+        font-size: 8px;
+        padding: 2px;
+    }
+    .container button i.fa {
+        font-size: 11px;
+    }
+    input {
+        width: 100%;
+    }
+    .form-bottom p {
+        font-size: 10px;
+    }
+    .middle-section h1 {
+        font-size: 0.9rem;
+    }
+    .middle-section h2 {
+        font-size: 0.8rem;
+    }
+    .middle-section p {
+        font-size: 0.8rem;
+    }
+    .middle-section button {
+        font-size: 15px;
+        margin-left: 0;
+    }
+    .middle-section button i.fa {
+        font-size: 22px;
+    }
+    .middle-center img {
+        height: 50%;
+    }
+    .last-section button i.fa {
+        font-size: 1.3rem;
+    }
+    .bottom-left div h1 {
+        font-size: 1rem;
+    }
+    #bottom-left h1 {
+        font-size: 1.3rem;
+    }
+    .bottom-right h4 {
+        font-size: 1rem;
+    }
+    .bottom-right h1 {
+        font-size: 1.2rem;
+    }
+    .bottom-last-text h1 {
+        font-size: 18px;
+    }
+    #bottom-hr {
+        height: 10px;
+    }
+    .social-icons img {
+        width: 27px;
+    }
+}
+@media all and (max-width: 420px) {
+    .top-header-right h1 {
+        font-size: 1.5rem;
+    }
+    .top-header-right h2 {
+        font-size: 0.8rem;
+    }
+    .top-header-right h3 {
+        font-size: 0.6rem;
+    }
+}
